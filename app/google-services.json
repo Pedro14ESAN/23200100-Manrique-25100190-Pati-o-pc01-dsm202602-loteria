@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1038435687119",
+    "project_id": "loteria-pc01-2112d",
+    "storage_bucket": "loteria-pc01-2112d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038435687119:android:6a399b305e5255bdf435ba",
+        "android_client_info": {
+          "package_name": "com.example.practicamoviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHfNRpdyYZbnyE4nB5MRwA5rFYONRJur8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
