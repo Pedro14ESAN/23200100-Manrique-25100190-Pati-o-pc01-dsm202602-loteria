@@ -348,4 +348,5 @@ fun SeguimientoScreen(navController: NavController) {
             Text("Volver a mi jugada")
         }
     }
+
 }
