@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+
+    id("com.google.gms.google-services")
+
 }
 
 android {
@@ -51,4 +54,19 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    // Navegación entre pantallas
+    implementation("androidx.navigation:navigation-compose:2.10.1")
+
+// Firebase: misma BoM utilizada en el proyecto del profesor
+    implementation(platform("com.google.firebase:firebase-bom:34.19.0"))
+
+// Autenticación
+    implementation("com.google.firebase:firebase-auth")
+
+// Base de datos
+    implementation("com.google.firebase:firebase-firestore")
+
+// Permite usar await() con las tareas de Firebase
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.10.2")
 }
